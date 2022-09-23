@@ -43,6 +43,7 @@
   ### 1.  Login Git
 
   Masukkan username dan Email yang terdaftar di GitHub.Langkah ini cukup dilakukan satu kali.
+  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   ![img 3](Gambar/gambar3.JPG)
 
@@ -54,31 +55,37 @@
 
   ### 3. Buat folder di windows dan buka dengan Git Bash
   Selanjutnya,  membuat folder pada local disk komputer. Fungsinya adalah untuk menyimpan update file dari repository GitHub yang telah Anda buat. Kemudian klik kanan folder tersebut dan pilih git bash here.
+
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   ![img 5](Gambar/gambar5.JPG)
 
   ### 4. Ubah Folder Menjadi Repository
   Setelah itu, ubah folder tersebut menjadi repository menggunakan perintah berikut:
+
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     ![img 6](Gambar/gambar6.JPG)
 
   ### 5. Add File dan Commit ke Repository
   Ketikkan perintah git add kemudian dilanjutkan dengan git commit untuk menambahkan file dan menyimpan perubahan ke repository. Dan kita bisa menambahkan pesan untuk membeikan checkout pada setiap perbuahan. contohnya "git commit -m "First".
+
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     ![img 7](Gambar/gambar7.JPG)
 
    ### 6. Remote Repository Github
   Remote repository berfungsi untuk mengupload file yang telah buat sebelumnya di local disk.
+  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   ![img 8](Gambar/gambar8.JPG)
 
   ###  7. Push ke GitHub
   Langkah terakhir adalah push ke GitHub Push ini berfungsi untuk mempublish file atau aplikasi ke github.
+
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   ![img 9](Gambar/gambar9.JPG)
 
    ### 8. Clone ke GitHub
   untuk melakukan cloning dari github ke komputer atau local
+
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   ![img 10](Gambar/gambar10.JPG)
 
