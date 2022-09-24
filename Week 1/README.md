@@ -244,8 +244,163 @@ output :
     ```
 
     Output
+
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   ![img 15](Gambar/gambar15.JPG)
+
+- ### CSS Syntax
+  CSS Syntax adalah syntax yang digunakan untuk menunjuk atau memilih HTML element mana yang ingin diberi style (dihias). CSS syntax terdiri dari selector, property, dan value.
+
+  Syntaxnya seperti ini:
+  ```css
+  h3 {
+    color: green;
+  }
+  ```
+
+  Penjelasan :
+
+  - h3
+
+    Adalah sebuah selector berupa element HTML yang akan diubah
+
+  - color
+
+    <div align="justify">Adalah sebuah properti berupa bagian mana dari element HTML yang akan diubah. Contoh diatas kita akan mengubah warna dari teks yang ada di element h3
+
+  - green
+
+    Adalah value yaitu nilai/hiasan berupa warna hijau
+
+  &nbsp;
+- ### Styling CSS Sederhana
+  Kode program
+```
+  <!-- File index.html -->
+<html>
+<head>
+<title>
+    My First Web
+</title>
+<link rel="stylesheet" href="styles.css" />
+<body>
+    <header>
+        <h1 >Hallo My World.</h1> 
+    </header>
+    <div class="container">
+    <div class="left">
+        <img src="https://bit.ly/2FKluzq" alt="Si Kucing"/>
+    </div>
+    <div class="right">
+        <p> Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content. 
+        </p>
+        <table border="1" cellpadding="8">
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>No Telp</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Susilowati</td>
+                <td>085678900432</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Abdul Reza K</td>
+                <td>085600756432</td>
+            </tr>
+        </table>
+    </div>
+    </div>
+</body>
+</html>
+
+```
+
+```
+  /* File styles.css */
+*{
+    margin : 0px;
+    background-color: rgb(24, 26, 25);
+    color:rgb(235, 224, 224)
+}
+header h1{
+    color:rgb(226, 19, 19)
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: space-between ;
+}
+.left{
+    width: 50%;
+}
+.right{
+    width: 40%;
+    margin-right: 5%;
+}
+p{
+    text-align: justify ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+@media (max-width: 800px) {
+    .left , .right {
+        width :100%;
+    }
+  }
+
+```
+Output :
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  ![img 17](Gambar/gambar17.JPG)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  ![img 18](Gambar/gambar18.JPG)
+
+Penjelasan :
+
+  - ` * `
+
+    <div align="justify">Adalah sebuah selector untuk keseluruhan element HTML yang di default ulang dengan properti margin : 0px,Kemudian warna background-color: rgb(24, 26, 25); dan warna tulisan yaitu color:rgb(235, 224, 224)
+
+  - header h1
+
+    <div align="justify">Adalah sebuah selector dengan elemen header sebagai parent dan h1 sebagai child dari header.Disini saya memberikan properti untuk h1 dengan warna tulisan yaitu color :rgb(226, 19, 19) 
+
+  - .container
+
+    <div align="justify">adalah sebuah selector berupa class bernama container.Di container ini saya membuat wadah untuk website dengan menerapkan penggunaan flexbox.Saya memberikan properti 
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: space-between ;
+- .left
+
+    <div align="justify">adalah sebuah selector berupa class bernama left.Ini untuk mengatur flexbox di bagian pertama. Di left ini memberikan properti width :50%.
+
+- .right
+
+    <div align="justify">adalah sebuah selector berupa class bernama right.Ini untuk mengatur flexbox di bagian selanjutnya. Di right ini memberikan properti width :40% dan margin right:5%.
+
+- p
+
+    <div align="justify">Adalah sebuah selector untuk semua elemen p diberikan styling css text-align: justify dan 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif.
+
+- @media (max-width: 800px)
+
+  <div align="justify">media query untuk membuat responsive website apabila tampilan website dengan lebar maksimal 800px maka akan distyling .left dan .right akan mempunyai nilai width :100%. 
+    
+ 
+
+
+
+
+
+
 
 
 
