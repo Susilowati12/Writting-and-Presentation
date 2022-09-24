@@ -43,7 +43,7 @@
   ### 1.  Login Git
 
   Masukkan username dan Email yang terdaftar di GitHub.Langkah ini cukup dilakukan satu kali.
-  
+
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   ![img 3](Gambar/gambar3.JPG)
 
@@ -88,6 +88,175 @@
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   ![img 10](Gambar/gambar10.JPG)
+
+## Day 2 : HTML
+- ### Pengertian HTML
+
+   HTML adalah singkatan dari _Hypertext Markup Language_. Secara singkat HTML adalah kerangka dari sebuat website yang mana biasanya digunakan untuk  menampilkan konten pada browser. 
+
+   Bagaimana peran HTML pada web development? 
+   HTML memastikan format teks dan gambar yang tepat untuk browser Internet.Web browser seperti Chrome, Firefox, Edge, Safari, atau Opera akan membaca dokumen HTML.Tanpa HTML, browser tidak akan tahu bagaimana menampilkan teks sebagai elemen atau memuat gambar atau elemen lainnya. 
+
+   Ada 2 tools utama yang harus dipersiapkan untuk membuat HTML
+
+   - Browser
+   - Code Editor
+- ### Kode HTML Sederhana dan Cara Menjalankannya
+  ```html
+  <html>
+  <head>
+  <title>
+      My First Web
+  </title>
+  <body>
+      Hallo My World.
+  </body>
+  </html>
+  ```
+
+  Pada kode program di atas terlihat struktur dari html terdiri dari tag html,head dan body. Di dalam tag head saya memasukkan title yang nantinya akan ditampilkan di bagian title bar saat kode ini dibuka oleh browser.Selanjutnya untuk konten akan selalu di masukkan ke dalam tag body. Maka tampilan dari file html ini akan terlihat seperti gambar di bawah ini :
+  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  ![img 11](Gambar/gambar11.JPG)
+
+  Di tampilan di atas saya menggunakan ekstensi __live server__ yang sudah saya install terlebih dahulu.Adapun kelebihanya yaitu tampilan di browser akan otomatis terefresh setiap programmer save perubahan pada kode html yang dibuat tanpa mengklik tombol refresh.
+  Cara menggunakan live server : Klik open folder lalu pilih file html kemudian klik Go Live.
+
+  Adapun jika secara manual maka tampilannya akan seperti di bawah ini :
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  ![img 12](Gambar/gambar12.JPG)
+- ### Semantic HTML dan Tag yang ada di dalam HTML
+  Semantic HTML yaitu menggunakan elemen HTML sesuai dengan kebutuhan konten. Contoh yaitu header, footer, nav, section, aside, dll.
+
+  Di dalam HTML juga terdapat istilah single tag (tag yang tidak memiliki pasangan penutup) dan double tag (tag yang memiliki pasangan penutup).
+
+```
+<!DOCTYPE html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <body>
+
+        <header>
+          <h1>My Website</h1>
+        </header>
+      
+        <nav>
+          <a href="#">Home</a> |
+          <a href="#">About</a> |
+          <a href="#">Contact</a>
+        </nav>
+      
+        <article>
+          <h1>Welcome To My Website</h1>
+          <p>Perkenalkan nama saya <span style ="color:blue"; > Susilowati </span>
+          </p>
+          <ol type ="1">
+            <li>Daftar Latihan</li>
+            <ul>
+                <li>Latihan 1</li>
+                <li>Latihan 2</li>
+                <li>Latihan 3</li>
+            </ul>
+           
+          </ol>
+          <img src="https://bit.ly/2EuFNQZ" alt="Logo"></img>
+        </article>
+      
+        <footer>
+          Copyright &copy; 2022 by Susilowati
+        </footer>
+      
+      </body>
+</body>
+</html>
+```
+Tag - tag yang digunakan :
+>- Tag h1 : Digunakan untuk membuat heading
+>- Tag p: Digunakan untuk membuat paragraf
+>- Tag a href : Digunakan untuk membuat tulisan dengan link
+>- Tag ol (ordered list): Digunakan untuk membuat list yang terurut
+>- Tag ul (unordered list): Digunakan untuk membuat list yang tidak terurut
+>- Tag img: Digunakan untuk menampilkan gambar.
+
+output :
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  ![img 13](Gambar/gambar13.JPG)
+  
+- ### Deploy HTML
+  Deploy adalah sebuah proses untuk menyebarkan aplikasi yang sudah kita kerjakan supaya bisa diakses secara publik. Jika aplikasi kita HTML atau Web App kita perlu mendeploy ke server. Untuk melakukan hal tersebut kita bisa menggunakan layanan yang bernama Netlify.
+
+  Berikut tampilan jika berhasil mendeploy website Netlify.
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  ![img 14](Gambar/gambar14.JPG)
+
+  ![img 16](Gambar/gambar16.JPG)
+
+## Day 3 : CSS
+- ### Pengertian CSS
+  CSS adalah bahasa komputer yang digunakan untuk menambahkan design ke suatu halaman website di internet agar terlihat lebih cantik/menarik. CSS adalah singkatan dari Cascading Style Sheets. Kita ibaratkan HTML adalah kerangka yang memberi sturuktur pada website, maka CSS adalah baju yang memberi warna dan layout pada website.
+  
+- ### Cara penggunaan CSS
+  - Inline CSS
+    
+    Programmer menambahkan langsung ke elemen html di baris kode html yang akan diberikan style.
+  - Internal CSS
+    
+    menggunakan element/tag `<style>` untuk menyisipkan kode CSS. element/tag `<style>` diletakkan di dalam element `<head>`
+  - Eksternal CSS
+
+    menyisipkan kode CSS dengan cara membuat file CSS terpisah, dan lalu menyambungkannya dengan file HTML dengan menggunakan element `<link>`. Element `<link>` tersebut diletakkan di dalam element `<head>`
+
+    Kode program
+    ```
+    <!-- File index.html -->
+    <html>
+    <head>
+      <title>
+        My First Web
+      </title>
+      <style>
+        h2{
+        color:yellow;
+        }
+      </style>
+      <link rel="stylesheet" href="styles.css" />
+    <body>
+       <!-- Ini inline CSS -->
+       <h1 style="color:red">Hallo My World.</h1> 
+       <!-- Ini internal CSS -->
+       <h2>Hello</h2>
+       <!-- Ini eksternal CSS -->
+       <h3>How Are You</h3>
+    </body>
+    </html>
+    ```
+   ```
+   /* File styles.css */
+   h3{
+    color:green;
+    }
+    ```
+
+    Output
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  ![img 15](Gambar/gambar15.JPG)
+
+
+
+  
+
+
+    
+
+
+
+
+
+
 
 
 
