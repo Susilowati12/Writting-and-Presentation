@@ -182,6 +182,7 @@ Tag - tag yang digunakan :
 >- Tag img: Digunakan untuk menampilkan gambar.
 
 output :
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   ![img 13](Gambar/gambar13.JPG)
   
@@ -192,6 +193,7 @@ output :
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   ![img 14](Gambar/gambar14.JPG)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
   ![img 16](Gambar/gambar16.JPG)
 
