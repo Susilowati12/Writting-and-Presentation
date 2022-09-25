@@ -393,12 +393,96 @@ Penjelasan :
 - @media (max-width: 800px)
 
   <div align="justify">media query untuk membuat responsive website apabila tampilan website dengan lebar maksimal 800px maka akan distyling .left dan .right akan mempunyai nilai width :100%. 
+
+## Day 4 : Algoritma
+- ### Perbedaan Algoritma dengan Data Structures
+
+  <div align="justify">Struktur data adalah cara penyimpanan , pengorganisasian , dan pengaturan data di dalam media penyimpanan komputer sehingga data tersebut dapat digunakan secara efisien. Algoritma adalah sederetan langkah-langkah logis yang disusun secara sistematis untuk memecahkan suatu masalah.
+
+- ### Manfaat dari algoritma dan data structure
+  - <div align="justify">Membantu menyederhanakan suatu program yang rumit dan juga besar.
+  - <div align="justify">Mempermudah pembuatan program yang dapat menyelesaikan masalah tertentu.
+  - <div align="justify">Membantu menyelesaikan suatu masalah dengan logika dan juga sistematis.
+  - <div align="justify">Data struktur dgunakan untuk mngelola sebuah data.
+
+- ### Membuat algoritma sederhana
+   - Soal
+      <div align="justify">Buatlah Algoritma untuk menyelesaikan problem ini
+
+      David memiliki program yang membutuhkan untuk menghitung sebuah luas persegi panjang
+      Contohnya jika program memiliki input panjang 50 cm dan lebar 40 cm maka output yang diharapkan adalah 2000 cm
+
+    - Jawaban
+
+      - Mulai
+      - Deklarasi variabel p, l, luas
+      - Menambahkan nilai p, l
+      - <div align="justify">Melakukan proses   ( luas = p * l )
+      - Menampilkan "Luas Persegi Panjang = " + luas
+      - Stop
+
+    &nbsp;
+
+- ### Menerapkan algoritma ke dalam bahasa pemrograman Java Script
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  ![img 19](Gambar/gambar19.JPG)
+
+- ### menerapkan salah satu struktur data dengan JavaScript 
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  ![img 20](Gambar/gambar20.JPG)
+
+- ### Big O Notation 
+
+  <div align="justify">Notasi O besar atau yang lazim disebut dengan Big-O Notation adalah sebuah cara atau metode untuk melakukan analisa terhadap sebuah algoritma pemrograman terhadap waktu eksekusi. Tentang seberapa efisien dan kompleksitas barisan kode dalam dimensi waktu.
+
+## Day 5 : JavaScipt Intro
+- ### Peran JavaScript pada web development
+
+  JavaScript adalah bahasa pemrograman yang digunakan dalam pengembangan website agar lebih dinamis dan interaktif.Penggunaannya selalu beriringan dengan html dan CSS.
+
+- ### Tipe data JavaScript
+  - Undefined : tipe data primitive yang nilainya `<undefined>` atau tidak terdefinisikan
+  - Null : tipe data primitive yang nilainya null
+  - Number : tipe data yang mewakili seluruh tipe data angka, seperti integer (bilangan bulat) dan floating point atau desimal.
+  - String : tipe data yang berhubungan dengan karakter.
+  - Boolean : tipe data yang hanya memiliki dua nilai, yakni true dan false dalam huruf kecil.
+  - Object : tipe data kompleks yang berisi kumpulan properti (props), setiap properti berisi pasangan key:value.
+
+- ### Operator data JavaScript
+  - Operator aritmatika : merupakan operator untuk melakukan operasi aritmatika seperti penjumlahan, pengurangan, pembagian, perkalian, dsb.
+  - Operator penugasan : adalah operator yang digunakan untuk memberikan tugas kepada variabel. Biasanya digunakan untuk mengisi variabel.
+  - Operator relasi atau perbandingan : adalah operator yang digunakan untuk membandingkan dua nilai. Operator perbandingan akan menghasilkan sebuah nilai boolean true dan false.
+  - Operator logika : digunakan untuk melakukan operasi terhadap dua nilai boolean.
+  - Operator ternary : biasanya digunakan untuk membuat sebuah percabangan if/else.
+
+- ### Control flow (conditional dan looping)
+  - Conditional JavaScript
+    Conditional digunakan saat dibutuhkan percabangan kasus. Komputer akan melakukan suatu tindakan jika suatu kondisi terpenuhi.
+    - if else : Biasanya digunakan untuk perkondisian yang kompleks
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    ![img 21](Gambar/gambar21.JPG)
+
+    - switch case : Biasanya digunakan untuk pengecekan sebuah nilai.
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    ![img 22](Gambar/gambar22.JPG)
     
- 
+    - operator ternary : biasanya digunakan untuk membuat sebuah percabangan if/else yang sederhana atau singkat.
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    ![img 23](Gambar/gambar23.JPG)
+
+  - Looping JavaScript
+    suatu metode dalam pemrograman untuk meng eksekusi suatu berintah yang sama terus-menerus hingga kondisi tertentu terpenuhi.
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    ![img 24](Gambar/gambar24.JPG)
 
 
-
-
+      
 
 
 
