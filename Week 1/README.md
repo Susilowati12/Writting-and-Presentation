@@ -193,8 +193,9 @@ output :
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   ![img 14](Gambar/gambar14.JPG)
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  
   ![img 16](Gambar/gambar16.JPG)
 
 ## Day 3 : CSS
@@ -459,6 +460,7 @@ Penjelasan :
 
 - ### Control flow (conditional dan looping)
   - Conditional JavaScript
+
     Conditional digunakan saat dibutuhkan percabangan kasus. Komputer akan melakukan suatu tindakan jika suatu kondisi terpenuhi.
     - if else : Biasanya digunakan untuk perkondisian yang kompleks
 
@@ -476,6 +478,7 @@ Penjelasan :
     ![img 23](Gambar/gambar23.JPG)
 
   - Looping JavaScript
+
     suatu metode dalam pemrograman untuk meng eksekusi suatu berintah yang sama terus-menerus hingga kondisi tertentu terpenuhi.
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
