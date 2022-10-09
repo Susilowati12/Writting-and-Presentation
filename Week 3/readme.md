@@ -11,7 +11,7 @@
      <div align="justify">Array didefinisikan dengan square brackets [] .Adapun cara memanggilnya yaitu dengan menuliskan nama array atau juga bisa ditambahkan angka index sesuai yang ingin ditampilkan.
 
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-     ![img 1](Gambar/gambar1.JPG)
+     ![img 1](gambarr/gambar1.JPG)
 
   - Update Array
 
@@ -20,7 +20,7 @@
     example:
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    ![img 2](Gambar/gambar2.JPG)
+    ![img 2](gambarr/gambar2.JPG)
 
   - Properti array
 
@@ -35,7 +35,7 @@
     example:
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    ![img 3](Gambar/gambar3.JPG)
+    ![img 3](gambarr/gambar3.JPG)
 
   - Method array
 
@@ -99,13 +99,13 @@
     example:
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    ![img 4](Gambar/gambar4.JPG)
+    ![img 4](gambarr/gambar4.JPG)
 
     - .map adalah method untuk melakukan perulangan dengan membuat array baru
     example:
     
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    ![img 5](Gambar/gambar5.JPG)
+    ![img 5](gambarr/gambar5.JPG)
 
 - ## Multidimensional array 
 
@@ -141,7 +141,7 @@
   - Membuat dan mengakses objek
     
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    ![img 6](Gambar/gambar6.JPG)
+    ![img 6](gambarr/gambar6.JPG)
 
     Saat pemanggilan properti object dapat menggunakan bracket notation
     ```
@@ -156,41 +156,41 @@
   - Menambah properti baru
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    ![img 7](Gambar/gambar7.JPG)
+    ![img 7](gambarr/gambar7.JPG)
 
   - Mengganti nilai properti
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    ![img 8](Gambar/gambar8.JPG)
+    ![img 8](gambarr/gambar8.JPG)
 
   - Delete object
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    ![img 9](Gambar/gambar9.JPG)
+    ![img 9](gambarr/gambar9.JPG)
 
   - Method Object
 
     jika value yang dimasukkan pada properti berupa function.
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    ![img 10](Gambar/gambar10.JPG)
+    ![img 10](gambarr/gambar10.JPG)
 
   - Nested Object
 
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    ![img 11](Gambar/gambar11.JPG)
+    ![img 11](gambarr/gambar11.JPG)
 
   - Loop object
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    ![img 12 ](Gambar/gambar12.JPG)
+    ![img 12 ](gambarr/gambar12.JPG)
 
   - Array of object
 
     Membuat object di dalam array.
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    ![img 13 ](Gambar/gambar13.JPG)
+    ![img 13 ](gambarr/gambar13.JPG)
 
 ## JavaScript Recursive
 - Recursive adalah fungsi yang memanggil dirinya sendiri sampai suatu kondisi tertentu terpenuhi
@@ -275,7 +275,7 @@
     - Output
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    ![img 14 ](Gambar/gambar14.JPG)
+    ![img 14 ](gambarr/gambar14.JPG)
 
 
 
