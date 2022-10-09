@@ -11,7 +11,7 @@
      <div align="justify">Array didefinisikan dengan square brackets [] .Adapun cara memanggilnya yaitu dengan menuliskan nama array atau juga bisa ditambahkan angka index sesuai yang ingin ditampilkan.
 
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-     ![img 1](gambarr/gambar1.PNG)
+     ![img 1](Gambar/gambar1.PNG)
 
   - Update Array
 
@@ -20,7 +20,7 @@
     example:
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    ![img 2](gambarr/gambar2.JPG)
+    ![img 2](Gambar/gambar2.PNG)
 
   - Properti array
 
@@ -35,7 +35,7 @@
     example:
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    ![img 3](gambarr/gambar3.JPG)
+    ![img 3](Gambar/gambar3.PNG)
 
   - Method array
 
@@ -99,13 +99,13 @@
     example:
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    ![img 4](gambarr/gambar4.JPG)
+    ![img 4](Gambar/gambar4.PNG)
 
     - .map adalah method untuk melakukan perulangan dengan membuat array baru
     example:
     
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    ![img 5](gambarr/gambar5.JPG)
+    ![img 5](Gambar/gambar5.PNG)
 
 - ## Multidimensional array 
 
