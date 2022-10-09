@@ -11,7 +11,7 @@
      <div align="justify">Array didefinisikan dengan square brackets [] .Adapun cara memanggilnya yaitu dengan menuliskan nama array atau juga bisa ditambahkan angka index sesuai yang ingin ditampilkan.
 
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-     ![img 1](gambarr/gambar1.JPG)
+     ![img 1](gambarr/gambar1.PNG)
 
   - Update Array
 
@@ -275,7 +275,7 @@
     - Output
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    ![img 14 ](gambarr/gambar14.JPG)
+    ![img 14 ](gambarr/gambar14.jpg)
 
 
 
