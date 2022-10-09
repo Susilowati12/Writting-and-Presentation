@@ -141,7 +141,7 @@
   - Membuat dan mengakses objek
     
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    ![img 6](gambarr/gambar6.JPG)
+    ![img 6](Gambar/gambar6.PNG)
 
     Saat pemanggilan properti object dapat menggunakan bracket notation
     ```
@@ -156,41 +156,41 @@
   - Menambah properti baru
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    ![img 7](gambarr/gambar7.JPG)
+    ![img 7](Gambar/gambar7.PNG)
 
   - Mengganti nilai properti
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    ![img 8](gambarr/gambar8.JPG)
+    ![img 8](Gambar/gambar8.PNG)
 
   - Delete object
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    ![img 9](gambarr/gambar9.JPG)
+    ![img 9](Gambar/gambar9.PNG)
 
   - Method Object
 
     jika value yang dimasukkan pada properti berupa function.
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    ![img 10](gambarr/gambar10.JPG)
+    ![img 10](Gambar/gambar10.PNG)
 
   - Nested Object
 
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    ![img 11](gambarr/gambar11.JPG)
+    ![img 11](Gambar/gambar11.PNG)
 
   - Loop object
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    ![img 12 ](gambarr/gambar12.JPG)
+    ![img 12 ](Gambar/gambar12.PNG)
 
   - Array of object
 
     Membuat object di dalam array.
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    ![img 13 ](gambarr/gambar13.JPG)
+    ![img 13 ](Gambar/gambar13.PNG)
 
 ## JavaScript Recursive
 - Recursive adalah fungsi yang memanggil dirinya sendiri sampai suatu kondisi tertentu terpenuhi
@@ -275,7 +275,7 @@
     - Output
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    ![img 14 ](gambarr/gambar14.jpg)
+    ![img 14 ](Gambar/gambar14.PNG)
 
 
 
