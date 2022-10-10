@@ -278,6 +278,190 @@
     ![img 14 ](Gambar/gambar14.PNG)
 
 
+## JavaScript Asynchronus Callback
+
+* JavaScript adalah bahasa pemrograman yang bersifat single-thread  dan asynchronus
+* Asyncrhronus mengizinkan komputer memproses task yang lain sambil menunggu proses yang masih berlangsung (Proses dapat diselak proses selanjutnya).
+* callback function adalah function yang kita letakkan di dalam argumen/parameter pada function tersebut akan dieksekusi setelah function pertama menyelesaikan tugasnya. 
+
+        ```
+        const mainFunc = (number1,number2,callBack) => {
+            console.log(number1 + number2)
+            callBAck()
+        }
+
+        const myCallback =() =>{
+            console.log (`Done !')
+        }
+
+        mainCallback =() =>{
+            console.log (`Done !`)
+        }
+
+        main(1,2,myCallback) // output 3 Done!
+        ```
+        - contoh syncronous dijalankan sesuai urutan code.
+
+        ```
+        function p1(){
+            console.log(`p1 selesai dijalankan`)
+        };
+        function p2(){
+            console.log(`p2 selesai dijalankan`)
+        };
+        function p3(){
+            console.log(`p3 selesai dijalankan`)
+        };
+
+        p1();
+        p2();
+        p3();
+
+        <!-- Output :
+        p1 selesai dijalankan
+        p2 selesai dijalankan
+        p3 selesai dijalankan -->
+        ```
+
+* SetTimeout digunakan untuk simulasi asynchronus. karena sebenarnya kita tidak bisa membuat proses asynchronoud murni. SetTimeout untuk menunda waktu.
+
+         ```
+        const p1 = ()=>{
+            console.log(`p1 selesai dijalankan`)
+        };
+        const p2 ()=>{
+            setTimeout(() => {
+            console.log(`p2 selesai dijalankan`)
+            },3000)
+        };
+
+        const p3(){
+            p1()
+            p2()
+            console.log(`p3 selesai dijalankan`)
+        };
+       
+        p3();
+        ```
+
+* Contoh asynchronus sederhana :
+    ```
+    console.log("A")
+
+    // butuh proses yg memakan waktu
+    // callback -> function yg dijadikan sbg argumen
+    setTimeout(() => {
+    console.log("B")
+    }, 1000) // 1000 mili second (1 detik)
+
+    console.log("C")
+
+    <!-- output :
+    A
+    C
+    B
+    Note : Muncul C terlebih dahulu karena B diberi setTimeout -->
+    ```
+## JavaScript Asynchronus Promise
+
+  * Promise adalah salah satu fitur baru di ES6, biasa digunakan untuk melakukan http request/fetch data dari API.  
+  * Dalam pengambilan data, promise memiliki 3 kemungkinan state.
+
+    1. Pending (sedang dalam proses)
+    2. Fulfilled (berhasil)
+    3. Rejected (gagal)
+  
+   Example :
+
+   ```
+     let nontonPromise = new promise((resolve, reject) => ()){
+        setTimeout(() => {
+            resolve("nonton terpenuhi")
+        }, 2000)
+     })
+
+     // Dibawah ini untuk mengekseskusi promise
+
+     console.log("A");
+
+     nontonPromise.then(result => {
+        console.log(result)
+     })
+
+     console.log("C");
+
+     <!-- Output :
+     A
+     C
+     nonton terpenuhi -->
+
+   ```
+## Javascript web storage
+
+* Dengan adanya web storage kita bisa menyimpan data kita secaran lokal di browser user
+* Cookie, tempat menyimoan data seebelum adanya web storage.
+web API digunakan untuk menghubungkan js dengan browser agar daling terkoneksi.
+* Web storage dapat menyimpan : referensi user, setting, score, dan posisi video.
+* web storage ada dua yaitu :
+    - local storage, jika halaman ditutup data tidak hilang.
+    - session storage, jika halaman ditutup data akan hilang.
+* Jangan diguanakan untuk : Data sensitif, Otentikasi
+* contoh penerapan dengan membuat todo list :
+siapkan file html berikut.
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    ![img 15](Gambar/gambar15.png)
+
+* Diatas akan dibuatkan form yang isinya diinputkan dapat ditampilkan dibawah makan.
+
+berikut file js nya :
+
+```
+// ==================== init penampung list dari todo
+const todos = [];
+
+// ==================== check ketika pertama kali website di buka, apakah ada key: theme dan value: dark di storage
+if (localStorage.getItem("todo")) {
+  const todoStore = JSON.parse(localStorage.getItem("todo"));
+
+  todoStore.map((todo) => {
+    const li = document.createElement("li");
+    li.innerText = todo;
+
+    const container = document.querySelector("#list-container");
+    return container.appendChild(li);
+  });
+}
+
+// ==================== check ketika pertama kali website di buka, apakah ada key: theme dan value: dark di storage
+document.querySelector("form").addEventListener("submit", (ev) => {
+  ev.preventDefault();
+  const userInput = document.querySelector("input").value;
+
+  const li = document.createElement("li");
+  li.innerText = userInput;
+
+  todos.push(userInput);
+
+  localStorage.setItem("todo", JSON.stringify(todos));
+
+  const container = document.querySelector("#list-container");
+  container.appendChild(li);
+});
+
+/* 
+  Conclucion:
+  JSON.parse -> ubah string ke object 
+  JSON.stringify -> ubah apapun ke string JSON
+*/
+```
+
+* untuk menyimpan gunakan localStorage.setitem
+    
+
+       
+
+
 
 
 
