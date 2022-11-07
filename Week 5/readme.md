@@ -2,8 +2,6 @@
 
 ## Day 1 Web Server dan Restful Api
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-     ![img 1](Gambar/gambar1.PNG)
 
 - <div align="justify">Web server adalah gabungan antara hardware dan software yang digunakan untuk menampung website.
 
